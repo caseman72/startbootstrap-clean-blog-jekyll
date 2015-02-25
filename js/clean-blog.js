@@ -40,8 +40,7 @@ $(function() {
                     phone: phone,
                     email: email,
                     message: message,
-                    _replyto: email,
-                    _next: ""+window.location.href
+                    _next: ""
                 },
                 cache: false,
                 success: function() {
