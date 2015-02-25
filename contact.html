@@ -7,7 +7,8 @@ header-img: "img/contact-bg.jpg"
 
 <p>Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you within 24 hours!</p>
 
-<form action="//formspree.io/{{site.email}}" name="sentMessage" id="contactForm" novalidate>
+<form name="sentMessage" id="contactForm" novalidate>
+    <input type="hidden" id="to" value="{{site.email}}">
     <div class="row control-group">
         <div class="form-group col-xs-12 floating-label-form-group controls">
             <label>Name</label>
