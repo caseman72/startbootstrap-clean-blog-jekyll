@@ -65,6 +65,9 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
+                complete: function() {
+                  console.log(arguments);
+                }
             })
         },
         filter: function() {
