@@ -39,7 +39,9 @@ $(function() {
                     name: name,
                     phone: phone,
                     email: email,
-                    message: message
+                    message: message,
+                    _replyto: email,
+                    _next: ""+window.location.href
                 },
                 cache: false,
                 success: function() {
