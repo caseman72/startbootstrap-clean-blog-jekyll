@@ -71,9 +71,8 @@ $(function() {
                 success: function() {
                     fx_success();
                 },
-                error: function(xhr, status, error) {
-                    console.log(arguments, xhr, status, status===405, error);
-                    status === 405 ? fx_success() : fx_error();
+                error: function(xhr) {
+                    xhr.status === 405 ? fx_success() : fx_error();
                 }
             })
         },
