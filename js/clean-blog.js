@@ -34,6 +34,7 @@ $(function() {
             $.ajax({
                 url: "//formspree.io/" + to,
                 type: "POST",
+                crossDomain: true,
                 data: {
                     name: name,
                     phone: phone,
