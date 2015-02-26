@@ -70,20 +70,24 @@ hr.small {
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
-    color: white;
+    color: #FA0;
+    text-shadow: 1px 1px 4px black;
     padding: 20px;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #DDD;
+    text-shadow: 1px 1px 4px black;
   }
   .navbar-custom .nav li a {
-    color: white;
+    color: #FA0;
+    text-shadow: 1px 1px 4px black;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #DDD;
+    text-shadow: 1px 1px 4px black;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -147,7 +151,8 @@ hr.small {
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 100px 0 50px;
-  color: white;
+  color: #FA0;
+  text-shadow: 3px 3px 8px black;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
@@ -168,8 +173,8 @@ hr.small {
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
   font-size: 24px;
-  line-height: 1.1,
-			display: block;
+  line-height: 1.1;
+  display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
