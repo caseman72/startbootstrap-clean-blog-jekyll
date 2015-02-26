@@ -59,15 +59,15 @@ $(function() {
             $.ajax({
                 url: "//formspree.io/" + to,
                 type: "POST",
+                cache: false,
                 crossDomain: true,
+                dataType: "json",
                 data: {
                     name: name,
                     phone: phone,
                     email: email,
-                    message: message,
-                    _next: "//formspree.io/" + to // this has the right headers but fails with a 405
+                    message: message
                 },
-                cache: false,
                 success: function() {
                     fx_success();
                 },
